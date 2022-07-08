@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:staggered_grid/pages/splash_page.dart';
 
 void main() {
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         // This is the theme of your application.
-
+        textTheme: GoogleFonts.dmSerifDisplayTextTheme(),
         primarySwatch: Colors.blue,
       ),
       home: const SplashPage(),
